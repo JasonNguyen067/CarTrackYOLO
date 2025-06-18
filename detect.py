@@ -27,7 +27,7 @@ while True:
                         cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
     cv2.imshow("YOLOv8 Car Detection", frame)
-    if cv2.waitKey(1) == 27:
+    if cv2.waitKey(1) == 27: #Escape key
         break
 
 cap.release()
